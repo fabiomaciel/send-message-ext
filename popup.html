@@ -1,17 +1,31 @@
 <html style="width:500px">
-    <head>
-        <title>Send Message To API</title>
-        <script src="popup.js"></script>
-    </head>
-    <body>
-        <h1>Welcome To The Zoeira</h1>
+
+<head>
+    <title>Send Message To API</title>
+    <script src="popup.js"></script>
+</head>
+
+<body>
+    <h1>Welcome To The Zoeira</h1>
+    <div>
         <div style="display:inline">
             <input type="text" id="insert">
             <button id="button">Send</button>
         </div>
-        <div>
-            <textarea disabled id="textarea">
-            </textarea>
+    </div>
+    <div>
+        <div style="display:inline">
+            <input type="text" id="insertGraphic">
+            <button id="sendGraphic">Send Graphic</button>
         </div>
-    </body>
+    </div>
+    <div>
+        <div style="display:inline">
+            <input type="text" id="insertRoot">
+            <button id="sendRoot">Send As Root</button>
+        </div>
+    </div>
+    <textarea disabled id="textarea"></textarea>
+</body>
+
 </html>
